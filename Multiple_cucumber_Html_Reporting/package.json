@@ -1,0 +1,24 @@
+{
+  "name": "cucumberexample1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test":"cucumber-js test/features/ -f json:test/report/cucumber_report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^6.0.7",
+    "multiple-cucumber-html-reporter": "^1.21.6"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^8.5.1",
+    "chai": "^4.3.6",
+    "selenium-webdriver": "^4.3.1"
+  }
+}

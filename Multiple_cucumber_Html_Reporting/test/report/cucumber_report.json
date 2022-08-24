@@ -1,0 +1,113 @@
+[
+  {
+    "description": "  As a user, I want to search for Jurassic on ebay website.",
+    "elements": [
+      {
+        "description": "",
+        "id": "ebay.com--website;navigating-to-the-url-and-searching-the-text",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Navigating to the url and searching the text",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the ebay url",
+            "match": {
+              "location": "test\\features\\steps_definations\\stepdefs.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1155400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on the advanced search",
+            "match": {
+              "location": "test\\features\\steps_definations\\stepdefs.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2015254299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I see the ebay img and navigate to home page",
+            "match": {
+              "location": "test\\features\\steps_definations\\stepdefs.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5011421500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ebay.com--website;searching-the-text-on-search-bar",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "searching the text on search bar",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "search the text in search bar \"Jurassic\"",
+            "match": {
+              "location": "test\\features\\steps_definations\\stepdefs.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6760772300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "i click on dropdown and select options",
+            "match": {
+              "location": "test\\features\\steps_definations\\stepdefs.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17720829499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "i see the message as succesfully found",
+            "match": {
+              "location": "test\\features\\steps_definations\\stepdefs.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51160199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "ebay.com--website",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Ebay.com  website",
+    "tags": [],
+    "uri": "test\\features\\feature_test.feature"
+  }
+]
