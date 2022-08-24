@@ -1,0 +1,20 @@
+{
+  "name": "cucumbergithublogin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":"cucumber-js test/features/ -f json:test/report/cucumber_report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.5.1",
+    "multiple-cucumber-html-reporter": "^1.21.6",
+    "selenium-webdriver": "^4.3.1"
+  },
+  "dependencies": {
+    "chai": "^4.3.6"
+  }
+}

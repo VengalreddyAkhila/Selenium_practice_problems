@@ -1,0 +1,112 @@
+[
+  {
+    "description": "",
+    
+    "elements": [
+      {
+        "description": "",
+        "id": "login-into-the-github-and-navigate-to-profile-page;access-for-github-login-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Access for github login page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Navigate to the github url",
+            "match": {
+              "location": "test\\features\\stepdefinations\\stepdef.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3246879599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "i enter the username and password",
+            "match": {
+              "location": "test\\features\\stepdefinations\\stepdef.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3637779000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "i will logined succesfully and navigate to home page",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-into-the-github-and-navigate-to-profile-page;accesss-github-profile-page",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Accesss github profile page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "dropdown is selected",
+            "match": {
+              "location": "test\\features\\stepdefinations\\stepdef.js:46"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3018205099,
+              "error_message": "NoSuchElementError: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/header/div[7]/details/summary/span[2]\"}\n  (Session info: chrome=104.0.5112.102)\n    at Object.throwDecodedError (C:\\Users\\91966\\Desktop\\Selenium\\cucumbergithublogin\\node_modules\\selenium-webdriver\\lib\\error.js:522:15)\n    at parseHttpResponse (C:\\Users\\91966\\Desktop\\Selenium\\cucumbergithublogin\\node_modules\\selenium-webdriver\\lib\\http.js:589:13)\n    at Executor.execute (C:\\Users\\91966\\Desktop\\Selenium\\cucumbergithublogin\\node_modules\\selenium-webdriver\\lib\\http.js:514:28)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Driver.execute (C:\\Users\\91966\\Desktop\\Selenium\\cucumbergithublogin\\node_modules\\selenium-webdriver\\lib\\webdriver.js:740:17)\n    at async toWireValue (C:\\Users\\91966\\Desktop\\Selenium\\cucumbergithublogin\\node_modules\\selenium-webdriver\\lib\\webdriver.js:141:15)\n    at async C:\\Users\\91966\\Desktop\\Selenium\\cucumbergithublogin\\node_modules\\selenium-webdriver\\lib\\webdriver.js:191:16\n    at async forEachKey (C:\\Users\\91966\\Desktop\\Selenium\\cucumbergithublogin\\node_modules\\selenium-webdriver\\lib\\webdriver.js:185:9)\n    at async convertKeys (C:\\Users\\91966\\Desktop\\Selenium\\cucumbergithublogin\\node_modules\\selenium-webdriver\\lib\\webdriver.js:190:3)\n    at async Driver.execute (C:\\Users\\91966\\Desktop\\Selenium\\cucumbergithublogin\\node_modules\\selenium-webdriver\\lib\\webdriver.js:738:22)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "your profile is clicked",
+            "match": {
+              "location": "test\\features\\stepdefinations\\stepdef.js:51"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "redirect to user profile page",
+            "match": {
+              "location": "test\\features\\stepdefinations\\stepdef.js:55"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-into-the-github-and-navigate-to-profile-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login into the github and navigate to profile page",
+    "tags": [],
+    "uri": "test\\features\\login.feature"
+  }
+]
